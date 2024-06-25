@@ -1,7 +1,7 @@
 # File Format Converter
 
 ## Overview
-The File Format Converter is a Python script designed to convert CSV files to JSON format. This script reads CSV files based on a predefined schema and outputs JSON files in a specified directory.
+The File Format Converter is a Python script that converts CSV files to JSON. This script reads CSV files based on a predefined schema and outputs JSON files in a specified directory.
 
 ## Features
 - Convert CSV files to JSON format.
@@ -9,21 +9,18 @@ The File Format Converter is a Python script designed to convert CSV files to JS
 - Create output directories if they do not exist.
 
 ## Requirements
-- Python 3.x
+- Python 3.6+
 - Pandas library
-
-## Setup
 
 ### Clone the Repository
 Clone the repository to your local machine using the following command:
 
-```bash
-git clone https://github.com/MADDURISANKETH/File_Format_Converter.git
+1. git clone https://github.com/MADDURISANKETH/File_Format_Converter.git
 cd File_Format_Converter
 
-Install Dependencies
-Install the necessary Python libraries using pip:
-pip install pandas
+2. Install Dependencies
+    Install the necessary Python libraries using pip:
+    pip install pandas
 Prepare Environment Variables
 Set the environment variables SRC_BASE_DIR and TGT_BASE_DIR to specify the source and target directories, respectively. You can set them in your terminal session:
 export SRC_BASE_DIR=/path/to/source_directory
